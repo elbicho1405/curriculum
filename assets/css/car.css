@@ -1,0 +1,45 @@
+body{
+  background:url(../img/Fondo.jpg);
+  background-size: 100%;
+}
+#general{
+  margin: auto;
+  width: 900px;
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+h1{
+  font-style: italic;
+    color: white;
+}
+footer{
+  margin-top: 10px;
+}
+#in{
+  color: aliceblue;
+}
+#da{
+  color: aliceblue;
+}
+#car{
+  color: aliceblue;
+}
+#con{
+  color: aliceblue;
+}
+
+.navbar-toggler{
+  background-color: #000;
+}
+
+.nav-link.active {
+  color: #000;
+  background-color: black;
+}
+
+.body .navbar{
+  background-color: transparent !important;
+}
