@@ -1,15 +1,18 @@
-body{
+body {
   background:url(../img/fondo.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
-#general{
+#general {
   margin: auto;
-  width: 900px;
-  height: 750px;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border-style: solid;
   border-width: 5px;
   border-color: black;
+  padding: 20px;
+  box-sizing: border-box;
 }
 h1{
   font-style: italic;
@@ -18,19 +21,9 @@ h1{
 footer{
   margin-top: 10px;
 }
-#in{
+#in, #con, #car, #da{
   color: aliceblue;
 }
-#da{
-  color: aliceblue;
-}
-#car{
-  color: aliceblue;
-}
-#con{
-  color: aliceblue;
-}
-
 .navbar-toggler{
   background-color: #000;
 }
@@ -42,4 +35,15 @@ footer{
 
 .body .navbar{
   background-color: transparent !important;
+}
+@media (max-width: 768px) {
+
+  #general {
+      padding: 10px;
+      width: 100%;
+  }
+
+  h1{
+      font-size: 1.2em;
+  }
 }

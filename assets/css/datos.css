@@ -1,54 +1,56 @@
-body{
-  background:url(../img/fondo.jpg);
-  background-size: 100%;
-}
-#logo_foto{
-  margin-top: 20px;
-  margin-left: 182px;
-  width: 368px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-#foto{
-  width: 180px;
-  height: 200px;
-  float: left;
-}
 #logo2{
-  width: 200px;
-  height: 200px;
-  float: right;
+  float: left;
+  width: 50%;
+  max-width: 180px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-#general{
+body {
+  background:url(../img/fondo.jpg);
+  background-size: cover;
+}
+
+#logo_foto {
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  max-width: 368px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#foto {
+  width: 50%;
+  max-width: 180px;
+  height: auto;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#general {
   margin: auto;
-  width: 900px;
-  height: 690px;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border-style: solid;
   border-width: 5px;
   border-color: black;
+  padding: 20px;
+  box-sizing: border-box;
 }
-h1{
+h1, h2 {
   font-style: italic;
-    color: white;
-}
-h2{
-  font-style: italic;
-    color: white;
+  color: white;
+  text-align: center;
 }
 footer{
   margin-top: 10px;
 }
-#in{
-  color: aliceblue;
-}
-#da{
-  color: aliceblue;
-}
-#car{
-  color: aliceblue;
-}
-#con{
+#in, #con, #car, #da{
   color: aliceblue;
 }
 
@@ -64,3 +66,25 @@ footer{
 .body .navbar{
   background-color: transparent !important;
 }
+@media (max-width: 768px) {
+  #logo_foto {
+      width: 80%;
+      max-width: 300px;
+  }
+
+  #logo2 {
+      width: 40%;
+      max-width: 150px;
+      margin-top: 10px;
+  }
+
+  #general {
+      padding: 10px;
+      width: 100%;
+  }
+
+  h1, h2 {
+      font-size: 1.2em;
+  }
+}
+

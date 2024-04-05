@@ -1,33 +1,77 @@
-body{
-  background:url(../img/fondo.jpg);
-  background-size: 100%;
+@media (min-width: 992px) {
+  body {
+    background:url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #logo_foto {
+    margin-top: 20px;
+    margin-left: 182px;
+    width: 368px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #general {
+    margin: auto;
+    width: 900px;
+    height: 535px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-top: 10px;
+  }
+  #logo2{
+    width: 200px;
+    height: 200px;
+    float: right;
+  }
+  #logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
 }
-#logo_foto{
-  margin-top: 20px;
-  margin-left: 182px;
-  width: 368px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-#logo{
-  width: 200px;
-  height: 200px;
-  float: left;
-}
-#logo2{
-  width: 200px;
-  height: 200px;
-  float: right;
-}
-#general{
-  margin: auto;
-  width: 900px;
-  height: 535px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  margin-top: 10px;
+@media (max-width: 991px) {
+  body {
+    background:url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #logo_foto {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #general {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  #logo{
+    width: 40%;
+      max-width: 150px;
+      margin-top: 10px;
+    float: left;
+  }
+  #logo2{
+    width: 40%;
+      max-width: 150px;
+      margin-top: 10px;
+    float: right;
+  }
 }
 h1{
   font-style: italic;
