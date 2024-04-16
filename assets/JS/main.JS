@@ -7,21 +7,21 @@ const MsgEnviado = JSON.parse(localStorage.getItem("MsgEnviado")) || {
 
 if (MsgEnviado.enviado) {
     general.innerHTML = `
-    <h1>𝐸𝓁 𝓂𝑒𝓃𝓈𝒶𝒿𝑒 𝒽𝒶 𝓈𝒾𝒹𝑜 𝑒𝓃𝓋𝒾𝒶𝒹𝑜 𝒸𝑜𝓃 𝑒́𝓍𝒾𝓉𝑜.</h1>
+    <h1>𝐄𝐥 𝐦𝐞𝐧𝐬𝐚𝐣𝐞 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐞𝐧𝐯𝐢𝐚𝐝𝐨 𝐜𝐨𝐧 é𝐱𝐢𝐭𝐨.</h1>
     <br>
     <br>
-    <h1>𝒮𝑒 𝓁𝑒 𝑒𝓈𝓉𝒶𝓇𝒶́ 𝓇𝑒𝓈𝓅𝑜𝓃𝒹𝒾𝑒𝓃𝒹𝑜 𝑒𝓃 𝑒𝓁 𝓁𝒶𝓅𝓈𝑜 𝒹𝑒 𝓉𝒾𝑒𝓂𝓅𝑜 𝓂𝒶𝓈 𝒸𝑜𝓇𝓉𝑜 𝓅𝑜𝓈𝒾𝒷𝓁𝑒.</h1>
+    <h1>𝐒𝐞 𝐥𝐞 𝐞𝐬𝐭𝐚𝐫á 𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐢𝐞𝐧𝐝𝐨 𝐞𝐧 𝐞𝐥 𝐥𝐚𝐩𝐬𝐨 𝐝𝐞 𝐭𝐢𝐞𝐦𝐩𝐨 𝐦á𝐬 𝐜𝐨𝐫𝐭𝐨 𝐩𝐨𝐬𝐢𝐛𝐥𝐞.</h1>
     <br>
-    <h1>𝐸𝓁 𝓉𝒾𝑒𝓂𝓅𝑜 𝑒𝓈𝓉𝒾𝓂𝒶𝒹𝑜 𝒹𝑒 𝓇𝑒𝓈𝓅𝓊𝑒𝓈𝓉𝒶 𝑒𝓈 𝒹𝑒 𝟩𝟤𝒽𝓈 𝒽𝒶𝒷𝒾𝓁𝑒𝓈.</h1>
-    <br>
-    <br>
-    <br>
+    <h1>𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐞𝐬𝐭𝐢𝐦𝐚𝐝𝐨 𝐝𝐞 𝐫𝐞𝐬𝐩𝐮𝐞𝐬𝐭𝐚 𝐞𝐬 𝐝𝐞 𝟐𝟒𝐡𝐬 𝐡á𝐛𝐢𝐥𝐞𝐬.</h1>
     <br>
     <br>
     <br>
-    <h1>𝒮𝒶𝓁𝓊𝒹𝑜𝓈 𝒸𝑜𝓇𝒹𝒾𝒶𝓁𝑒𝓈. </h1>
-    <h1>-𝐵𝓊𝓈𝓉𝑜𝓈</h1>
-    <button type="submit" class="login-submit btn btn-primary" id="enviar">𝐸𝓃𝓋𝒾𝒶𝓇:</button>
+    <br>
+    <br>
+    <br>
+    <h1>𝐒𝐚𝐥𝐮𝐝𝐨𝐬 𝐜𝐨𝐫𝐝𝐢𝐚𝐥𝐞𝐬. </h1>
+    <h1>-𝐁𝐮𝐬𝐭𝐨𝐬</h1>
+    <button type="submit" class="login-submit btn btn-primary" id="enviar">𝐄𝐧𝐯𝐢𝐚𝐫:</button>
     `
     general.style.height="700px";
     let btnEnviarNuevoMsg = document.getElementById("enviar");
